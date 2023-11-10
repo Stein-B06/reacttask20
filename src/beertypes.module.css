@@ -1,0 +1,45 @@
+.beertypepage {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(180deg, #efcd76, #f7c443);
+}
+
+.resultoutput {
+  background-color: rgb(254, 255, 240);
+  margin: 10px;
+  padding: 15px;
+  margin: 5px;
+  text-align: center;
+  max-width: 500px;
+  margin: 15px;
+  background-color: #785a0f;
+  color: rgb(245, 242, 238);
+  border-radius: 22px;
+}
+.beerlist {
+  position: sticky;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  list-style: none;
+}
+
+.beerlist li:hover {
+  cursor: pointer;
+  color: rgb(245, 242, 239);
+}
+
+.resultoutput p {
+  color: rgb(245, 242, 238);
+}
+.clearBtn {
+  margin: 10px;
+  background-color: #745509;
+  color: rgb(244, 243, 242);
+}

@@ -1,0 +1,130 @@
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-position: bottom;
+}
+main {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  max-width: 600px;
+  background: linear-gradient(180deg, #efcd76, #f7c443);
+}
+
+/* menu-buttons */
+a {
+  font-family: "Poppins", sans-serif;
+  color: #313104;
+  text-decoration: inherit;
+}
+a:hover {
+  cursor: pointer;
+  color: rgb(176, 123, 9);
+  text-decoration: underline;
+}
+.navbar {
+  background-size: cover;
+  background-color: #eef3ed;
+  display: flex;
+  padding: 20px;
+  justify-content: space-between;
+  align-items: center;
+}
+h1 {
+  font-size: 30px;
+  font-family: Agbalumo;
+  text-align: center;
+  color: #4e4207;
+  padding: 10px;
+  margin: 10px auto;
+}
+#searchInput {
+  border-radius: 5px 0px 0px 5px;
+  border: none;
+  font-size: 16px;
+  padding: 1px 0px 3px 2px;
+}
+form {
+  display: flex;
+  justify-content: center;
+}
+ul {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+.logo {
+  background-image: url("./images/beermug-logo3.jpg");
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.art-btn {
+  margin-bottom: 10px;
+}
+.Go-to-top {
+  position: sticky;
+  top: 0;
+  background-color: #e5ece3;
+  margin: 5px;
+}
+button {
+  cursor: pointer;
+  background-color: #f7c443;
+  font-weight: bolder;
+  color: rgb(45, 47, 4);
+  padding: 8px;
+  border-radius: 8px;
+  border: none;
+}
+#submit-btn {
+  padding: 4px;
+  border-radius: 0px 5px 5px 0px;
+  border: 1px solid white;
+  background-color: #fff;
+}
+#submit-btn:hover {
+  background-color: #313104;
+}
+button:hover {
+  background-color: #393003;
+  color: rgb(244, 244, 237);
+}
+h2 {
+  font-family: Agbalumo;
+  color: #4e4207;
+  margin-top: 0;
+  font-weight: normal;
+}
+.section {
+  margin: 15px;
+  padding-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #e5ece3;
+  max-width: 450px;
+
+  border-radius: 18px;
+}
+footer {
+  color: #313104;
+  background-color: #eef3ed;
+  padding: 30px;
+  text-align: center;
+}
+p {
+  padding: 0 25px;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  color: #4e4207;
+}
