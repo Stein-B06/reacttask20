@@ -9,6 +9,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import MainPage from "./routes/mainpage";
 const router = createBrowserRouter([
   {
+    //The new pages are added here:
     path: "/",
     element: <App />,
     errorElement: <ErrorPage />,

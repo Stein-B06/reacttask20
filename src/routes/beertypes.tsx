@@ -63,7 +63,7 @@ const BeerTypes: React.FC = () => {
           <li
             key={index}
             onClick={() => handleResultClick(type)}
-            className="searched-title" // Apply the CSS class for cursor change
+            className="searched-title"
           >
             {type.name}
           </li>
