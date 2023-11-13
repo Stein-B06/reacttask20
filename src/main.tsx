@@ -3,8 +3,7 @@ import ReactDOM from "react-dom/client";
 import App from "./App";
 import BeerTypes from "./routes/beertypes";
 import ErrorPage from "./routes/errorpage";
-import AboutPage from "./routes/aboutpage";
-
+import Beerhistory from "./routes/DataFetcher";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import MainPage from "./routes/mainpage";
 const router = createBrowserRouter([
@@ -23,8 +22,8 @@ const router = createBrowserRouter([
         element: <MainPage />,
       },
       {
-        path: "/about",
-        element: <AboutPage />,
+        path: "/history",
+        element: <Beerhistory />,
       },
     ],
   },
