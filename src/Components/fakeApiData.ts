@@ -1,3 +1,5 @@
+//the array for beer history page
+
 const fakeApiData = [
   {
     id: 1,
