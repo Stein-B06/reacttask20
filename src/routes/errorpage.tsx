@@ -1,5 +1,7 @@
 import { useRouteError } from "react-router-dom";
 
+//if for example type /anyname at end in URL , the error page will appear.
+
 export default function ErrorPage() {
   const error = useRouteError();
   console.error(error);
