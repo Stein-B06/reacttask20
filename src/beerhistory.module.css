@@ -1,0 +1,40 @@
+/* css for the Beer history page */
+#beerhistory {
+  display: flex;
+  padding: 5px;
+  background: linear-gradient(180deg, #efcd76, #f7c443);
+  min-height: 100vh;
+  max-width: 500px;
+}
+
+.historylist {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: antiquewhite;
+}
+.loadMore {
+  background-color: rgb(163, 103, 13);
+  margin-top: 10px;
+  padding: 5px 10px;
+  cursor: pointer;
+  color: antiquewhite;
+}
+
+.loadMore:hover {
+  background-color: #c59315;
+}
+.listItem {
+  padding: 10px;
+  margin-right: 35px;
+  padding-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #e5ece3;
+  max-width: 450px;
+  color: #4e4207;
+  border-radius: 18px;
+}
