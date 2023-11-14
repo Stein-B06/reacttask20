@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import App from "./App";
+import App from "./Layout";
 import BeerTypes from "./routes/beertypes";
 import ErrorPage from "./routes/errorpage";
 import Beerhistory from "./routes/DataFetcher";
