@@ -4,6 +4,8 @@ import Search from "../Components/search";
 import ArticleCard from "../Components/ArticleCard";
 import articles from "../Components/articles/articles";
 
+// This is the Homepage
+
 function MainPage() {
   return (
     <div className="app">

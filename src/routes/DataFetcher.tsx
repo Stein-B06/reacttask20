@@ -2,6 +2,8 @@
 import React, { useState, useEffect } from "react";
 import styles from "../beerhistory.module.css";
 
+// This is the Beerhistory-page
+
 interface BeerHistoryItem {
   id: number;
   year: number;

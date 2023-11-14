@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import beerTypes from "../Components/beertypes";
 import style from "../beertypes.module.css";
 
+// This is the Beertypes-page
+
 const BeerTypes: React.FC = () => {
   const [query, setQuery] = useState("");
   const [filteredResults, setFilteredResults] = useState(beerTypes);

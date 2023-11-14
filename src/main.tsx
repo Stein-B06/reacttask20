@@ -11,6 +11,7 @@ const router = createBrowserRouter([
     //The new pages are added here:
     path: "/",
     element: <App />,
+
     errorElement: <ErrorPage />,
     children: [
       {
