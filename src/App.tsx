@@ -3,7 +3,7 @@ import Navbar from "./Components/navbar";
 import Footer from "./Components/footer";
 import { Outlet, Link } from "react-router-dom";
 
-//This is the page used for creating other pages. It contains Navbar and Footer.
+//This is the layout-page used for creating other pages. It contains Navbar and Footer.
 
 function App() {
   return (
