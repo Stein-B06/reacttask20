@@ -15,7 +15,7 @@ function App() {
             <Link to="beer-types">Beer types</Link>
           </li>
           <li>
-            <Link to="Home">Home</Link>
+            <Link to="">Home</Link>
           </li>
           <li>
             <Link to="Beerhistory">Beerhistory</Link>
