@@ -19,7 +19,7 @@ const router = createBrowserRouter([
         element: <BeerTypes></BeerTypes>,
       },
       {
-        path: "/Home",
+        path: "/",
         element: <MainPage />,
       },
       {
