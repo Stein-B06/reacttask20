@@ -15,10 +15,10 @@ function App() {
             <Link to="beer-types">Beer types</Link>
           </li>
           <li>
-            <Link to="">Home</Link>
+            <Link to="Home">Home</Link>
           </li>
           <li>
-            <Link to="History">Beerhistory</Link>
+            <Link to="Beerhistory">Beerhistory</Link>
           </li>
         </Navbar>
       </header>
