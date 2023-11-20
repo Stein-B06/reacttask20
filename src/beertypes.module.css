@@ -24,6 +24,8 @@
   flex-direction: column;
   gap: 20px;
   list-style: none;
+  padding-left: 240px;
+  padding-right: 240px;
 }
 
 .beerlist li:hover {

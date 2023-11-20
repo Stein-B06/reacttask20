@@ -43,15 +43,17 @@ const BeerTypes: React.FC = () => {
   return (
     <div className={style.beertypepage}>
       <h1>Beertypes</h1>
-      <input
-        type="text"
-        placeholder="Search..."
-        value={query}
-        onChange={handleSearch}
-      />
-      <button className={style.clearBtn} onClick={handleClearClick}>
-        Clear
-      </button>{" "}
+      <div>
+        <input
+          type="text"
+          placeholder="Search..."
+          value={query}
+          onChange={handleSearch}
+        />
+        <button className={style.clearBtn} onClick={handleClearClick}>
+          Clear
+        </button>{" "}
+      </div>
       <p>
         {selectedResult && (
           <div className={style.resultoutput}>
