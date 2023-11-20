@@ -19,11 +19,8 @@
   border-radius: 22px;
 }
 .beerlist {
-  padding-left: 240px;
-  padding-right: 240px;
   display: flex;
   justify-content: center;
-  align-items: center;
   flex-direction: column;
   gap: 20px;
   list-style: none;
@@ -41,4 +38,7 @@
   margin: 10px;
   background-color: #745509;
   color: rgb(244, 243, 242);
+}
+.searched-title {
+  background: rgb(245, 242, 238);
 }
