@@ -23,12 +23,12 @@ main {
 a {
   font-family: "Poppins", sans-serif;
   color: #313104;
-  text-decoration: inherit;
+  text-decoration: none;
 }
 a:hover {
   cursor: pointer;
   color: rgb(176, 123, 9);
-  text-decoration: underline;
+  text-decoration: none;
 }
 .navbar {
   background-size: cover;
