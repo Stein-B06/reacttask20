@@ -6,6 +6,8 @@ import ErrorPage from "./routes/errorpage";
 import Beerhistory from "./routes/DataFetcher";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import MainPage from "./routes/mainpage";
+import Test from "./routes/test";
+
 const router = createBrowserRouter([
   {
     //The new pages are added here:
@@ -25,6 +27,10 @@ const router = createBrowserRouter([
       {
         path: "/Beerhistory",
         element: <Beerhistory />,
+      },
+      {
+        path: "/test",
+        element: <Test />,
       },
     ],
   },
