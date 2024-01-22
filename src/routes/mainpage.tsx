@@ -3,6 +3,7 @@ import Button from "../Components/button";
 import Search from "../Components/search";
 import ArticleCard from "../Components/ArticleCard";
 import articles from "../Components/articles/articles";
+import { Link } from "react-router-dom";
 
 // This is the Homepage
 
@@ -25,7 +26,7 @@ function MainPage() {
             description={articles[0].description}
           />
           {/* component med en property */}
-          <Button text={"Read more"} />
+          <Link to="test">Test</Link>
         </section>
         <section className="section">
           <ArticleCard
