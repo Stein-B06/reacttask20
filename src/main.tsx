@@ -6,7 +6,7 @@ import ErrorPage from "./routes/errorpage";
 import Beerhistory from "./routes/DataFetcher";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import MainPage from "./routes/mainpage";
-import Test from "./routes/test";
+import Homebrewing from "./routes/Homebrewing";
 
 const router = createBrowserRouter([
   {
@@ -29,8 +29,8 @@ const router = createBrowserRouter([
         element: <Beerhistory />,
       },
       {
-        path: "/test",
-        element: <Test />,
+        path: "/Homebrewing",
+        element: <Homebrewing />,
       },
     ],
   },

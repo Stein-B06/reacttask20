@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import beerTypes from "../Components/beertypes";
+import beerTypes from "../Components/arrays/beertypes";
 import style from "../beertypes.module.css";
 
 // This is the Beertypes-page

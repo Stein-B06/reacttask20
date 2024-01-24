@@ -1,4 +1,4 @@
-import Article from "./articles/articles";
+import Article from "./arrays/articles";
 
 type Article = {
   title: string;
