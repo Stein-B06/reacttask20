@@ -1,8 +1,8 @@
 import "../App.css";
-import Button from "../Components/button";
 import ArticleCard from "../Components/ArticleCard";
 import articles from "../Components/arrays/articles";
 import { Link } from "react-router-dom";
+import style from "../routes/homebrewing.module.css";
 
 // This is the Homepage
 
@@ -21,7 +21,9 @@ function MainPage() {
           />
           {/* component med en property */}
 
-          <Link to="Homebrewing">See More</Link>
+          <Link className={style.moreBtn} to="Homebrewing">
+            See More
+          </Link>
         </section>
         <section className="section">
           <ArticleCard
@@ -30,7 +32,9 @@ function MainPage() {
           />
 
           {/* component med en property */}
-          <Button text={"Read more"} />
+          <Link className={style.moreBtn} to="beercraft">
+            See More
+          </Link>
         </section>
         <section className="section">
           <ArticleCard
@@ -39,7 +43,9 @@ function MainPage() {
           />
 
           {/* component med en property */}
-          <Button text={"Read more"} />
+          <Link className={style.moreBtn} to="beermatch">
+            See More
+          </Link>
         </section>
       </main>
     </div>

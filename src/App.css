@@ -11,6 +11,7 @@ body {
   justify-content: center;
   align-items: center;
 }
+
 header {
   padding-bottom: 100px;
 }
@@ -28,8 +29,9 @@ main {
 
 /* menu-buttons */
 a {
+  font-weight: bold;
   font-family: "Poppins", sans-serif;
-  color: #313104;
+  color: #56560b;
   text-decoration: none;
 }
 a:hover {
@@ -44,10 +46,11 @@ a:hover {
   background-color: #eef3ed;
   display: flex;
   align-items: center;
-  padding: 30px;
-
-  justify-content: space-evenly;
-  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+nav {
+  margin-right: 50px;
 }
 h1 {
   font-size: 30px;
@@ -73,6 +76,7 @@ ul {
   list-style: none;
 }
 .logo {
+  margin-left: 0;
   background-image: url("./images/beermug-logo3.jpg");
   width: 60px;
   height: 60px;
@@ -125,22 +129,19 @@ h2 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  text-align: center;
+
   background-color: #e5ece3;
   max-width: 450px;
 
   border-radius: 18px;
 }
 footer {
-  color: #313104;
   background-color: #eef3ed;
-  padding: 30px;
+  padding: 20px;
   text-align: center;
-  height: 100px;
 }
 p {
   padding: 0 25px;
   margin: 0;
   font-family: "Poppins", sans-serif;
-  color: #4e4207;
 }

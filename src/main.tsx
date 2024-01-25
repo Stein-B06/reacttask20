@@ -7,6 +7,8 @@ import Beerhistory from "./routes/DataFetcher";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import MainPage from "./routes/mainpage";
 import Homebrewing from "./routes/Homebrewing";
+import Beercraft from "./routes/beercraft";
+import Beermatch from "./routes/beermatch";
 
 const router = createBrowserRouter([
   {
@@ -27,6 +29,14 @@ const router = createBrowserRouter([
       {
         path: "/Beerhistory",
         element: <Beerhistory />,
+      },
+      {
+        path: "/beercraft",
+        element: <Beercraft />,
+      },
+      {
+        path: "/beermatch",
+        element: <Beermatch />,
       },
       {
         path: "/Homebrewing",

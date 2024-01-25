@@ -67,7 +67,7 @@ const BeerTypes: React.FC = () => {
           <li
             key={index}
             onClick={() => handleResultClick(type)}
-            className="searched-title"
+            className={style.searchedtitle}
           >
             {type.name}
           </li>
