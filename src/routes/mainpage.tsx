@@ -1,9 +1,8 @@
 import "../App.css";
-import Button from "../Components/button";
-import Search from "../Components/search";
 import ArticleCard from "../Components/ArticleCard";
-import articles from "../Components/articles/articles";
+import articles from "../Components/arrays/articles";
 import { Link } from "react-router-dom";
+import style from "../routes/homebrewing.module.css";
 
 // This is the Homepage
 
@@ -13,11 +12,6 @@ function MainPage() {
       <main>
         <h1>Homemade Happiness: Your Guide to DIY Beer Brewing</h1>
 
-        {/* Component search */}
-        <div className="search">
-          <Search></Search>
-        </div>
-
         {/* component ArticleCard added to sections. the array with title and description is imported
       from articles.ts. articles from ArticleCard added individual, used title and description as props */}
         <section className="section">
@@ -26,7 +20,10 @@ function MainPage() {
             description={articles[0].description}
           />
           {/* component med en property */}
-          <Link to="test">Test</Link>
+
+          <Link className={style.moreBtn} to="Homebrewing">
+            See More
+          </Link>
         </section>
         <section className="section">
           <ArticleCard
@@ -35,7 +32,9 @@ function MainPage() {
           />
 
           {/* component med en property */}
-          <Button text={"Read more"} />
+          <Link className={style.moreBtn} to="beercraft">
+            See More
+          </Link>
         </section>
         <section className="section">
           <ArticleCard
@@ -44,7 +43,9 @@ function MainPage() {
           />
 
           {/* component med en property */}
-          <Button text={"Read more"} />
+          <Link className={style.moreBtn} to="beermatch">
+            See More
+          </Link>
         </section>
       </main>
     </div>

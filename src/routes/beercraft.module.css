@@ -1,0 +1,9 @@
+.beercraft {
+  display: flex;
+  justify-content: center;
+}
+.moreBtn {
+  background-color: rgb(216, 166, 29);
+  border-radius: 12px;
+  padding: 4px 6px;
+}

@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import beerTypes from "../Components/beertypes";
+import beerTypes from "../Components/arrays/beertypes";
 import style from "../beertypes.module.css";
 
 // This is the Beertypes-page
@@ -67,7 +67,7 @@ const BeerTypes: React.FC = () => {
           <li
             key={index}
             onClick={() => handleResultClick(type)}
-            className="searched-title"
+            className={style.searchedtitle}
           >
             {type.name}
           </li>
