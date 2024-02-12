@@ -1,10 +1,11 @@
 .Homebrewing {
   display: flex;
   justify-content: center;
+  align-items: center;
+  min-height: 83vh;
 }
 .moreBtn {
   background-color: rgb(131, 99, 18);
-
   border-radius: 12px;
   padding: 4px 6px;
   color: rgb(236, 230, 230);

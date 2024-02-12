@@ -7,7 +7,7 @@ export default function Navbar(props) {
     <header className={style.navbar}>
       <div className="logo">
         <Link to="/" className={style.logo}>
-          <img src={images} className={style.logo} />
+          <img src={images} alt="logo" className={style.logo} />
         </Link>
       </div>
       <nav>

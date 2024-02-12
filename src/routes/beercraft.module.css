@@ -1,6 +1,8 @@
 .beercraft {
   display: flex;
   justify-content: center;
+  align-items: center;
+  min-height: 83vh;
 }
 .moreBtn {
   background-color: rgb(216, 166, 29);

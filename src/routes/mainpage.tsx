@@ -22,7 +22,7 @@ function MainPage() {
           {/* component med en property */}
 
           <Link className={style.moreBtn} to="Homebrewing">
-            See More
+            More
           </Link>
         </section>
         <section className="section">
@@ -33,7 +33,7 @@ function MainPage() {
 
           {/* component med en property */}
           <Link className={style.moreBtn} to="beercraft">
-            See More
+            More
           </Link>
         </section>
         <section className="section">
@@ -44,7 +44,7 @@ function MainPage() {
 
           {/* component med en property */}
           <Link className={style.moreBtn} to="beermatch">
-            See More
+            More
           </Link>
         </section>
       </main>
