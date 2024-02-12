@@ -32,9 +32,8 @@ header {
 .logo {
   margin-left: 0;
   width: 70px;
-  height: 70px;
+  height: 55px;
   border-radius: 50%;
   background-position: center;
   background-size: cover;
-  background-repeat: no-repeat;
 }
