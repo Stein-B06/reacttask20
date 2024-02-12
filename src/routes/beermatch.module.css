@@ -1,9 +1,13 @@
 .beermatch {
   display: flex;
   justify-content: center;
+  align-items: center;
+  min-height: 83vh;
 }
-.moreBtn {
-  background-color: rgb(216, 166, 29);
-  border-radius: 12px;
-  padding: 4px 6px;
+h2 {
+  text-align: center;
+  margin: 20px;
+}
+p {
+  padding: 10px 20pxpx;
 }

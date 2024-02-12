@@ -1,6 +1,7 @@
-// src/components/DataFetcher.tsx
+// src/components/beerhistory.tsx
 import React, { useState, useEffect } from "react";
 import styles from "../beerhistory.module.css";
+import ScrollTopButton from "../Components/button";
 
 // This is the Beerhistory-page
 
@@ -247,6 +248,7 @@ const DataFetcher: React.FC = () => {
               Load More
             </button>
           )}
+          <ScrollTopButton />
         </div>
       )}
     </div>

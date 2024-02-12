@@ -12,46 +12,24 @@ body {
   align-items: center;
 }
 
-header {
-  padding-bottom: 100px;
-}
 .app {
-  background-color: #f7c443;
+  background: linear-gradient(180deg, #efcd76, #f7c443);
 }
 main {
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
-
   background: linear-gradient(180deg, #efcd76, #f7c443);
 }
 
 /* menu-buttons */
 a {
-  font-weight: bold;
   font-family: "Poppins", sans-serif;
   color: #56560b;
   text-decoration: none;
 }
-a:hover {
-  cursor: pointer;
-  color: rgb(176, 123, 9);
-  text-decoration: none;
-}
-.navbar {
-  width: 100%;
-  position: fixed;
-  /* z-index: 1000; */
-  background-color: #eef3ed;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 20px;
-}
-nav {
-  margin-right: 50px;
-}
+
 h1 {
   font-size: 30px;
   font-family: Agbalumo;
@@ -75,16 +53,7 @@ ul {
   gap: 20px;
   list-style: none;
 }
-.logo {
-  margin-left: 0;
-  background-image: url("./images/beermug-logo3.jpg");
-  width: 60px;
-  height: 60px;
-  border-radius: 50%;
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
+
 .art-btn {
   margin-bottom: 10px;
 }
@@ -94,28 +63,7 @@ ul {
   background-color: #e5ece3;
   margin: 5px;
 }
-button {
-  cursor: pointer;
-  background-color: #f7c443;
-  font-weight: bolder;
-  color: rgb(45, 47, 4);
-  padding: 8px;
-  border-radius: 8px;
-  border: none;
-}
-#submit-btn {
-  padding: 4px;
-  border-radius: 0px 5px 5px 0px;
-  border: 1px solid white;
-  background-color: #fff;
-}
-#submit-btn:hover {
-  background-color: #313104;
-}
-button:hover {
-  background-color: #393003;
-  color: rgb(244, 244, 237);
-}
+
 h2 {
   font-family: Agbalumo;
   color: #4e4207;
