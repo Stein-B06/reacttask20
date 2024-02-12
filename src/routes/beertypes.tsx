@@ -17,7 +17,7 @@ const BeerTypes: React.FC = () => {
     setQuery(value);
 
     // Reset selectedResult when search input is changed
-    setSelectedResult(null);
+    // setSelectedResult(null);
 
     const filtered = beerTypes.filter((type) => {
       const lowerCaseQuery = value.toLowerCase();

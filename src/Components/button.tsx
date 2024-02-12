@@ -1,7 +1,15 @@
-export default function Button({ text }) {
+import style from "../beerhistory.module.css";
+
+const ScrollTopButton: React.FC = () => {
+  const handleScrollTop = () => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  };
+
   return (
-    <div className="art-btn">
-      <button type="button">{text}</button>
-    </div>
+    <button className={style.ToTop} onClick={handleScrollTop}>
+      To top
+    </button>
   );
-}
+};
+
+export default ScrollTopButton;

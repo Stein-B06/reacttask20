@@ -3,7 +3,7 @@ import ReactDOM from "react-dom/client";
 import App from "./Layout";
 import BeerTypes from "./routes/beertypes";
 import ErrorPage from "./routes/errorpage";
-import Beerhistory from "./routes/DataFetcher";
+import Beerhistory from "./routes/beerhistory";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import MainPage from "./routes/mainpage";
 import Homebrewing from "./routes/Homebrewing";

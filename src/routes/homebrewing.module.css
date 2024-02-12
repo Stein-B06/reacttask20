@@ -1,9 +1,23 @@
 .Homebrewing {
   display: flex;
   justify-content: center;
+  align-items: center;
+  min-height: 83vh;
 }
 .moreBtn {
-  background-color: rgb(216, 166, 29);
+  background-color: rgb(131, 99, 18);
   border-radius: 12px;
   padding: 4px 6px;
+  color: rgb(236, 230, 230);
+}
+.moreBtn:hover {
+  background-color: rgb(61, 46, 4);
+}
+h1 {
+  font-size: 30px;
+  font-family: Agbalumo;
+  text-align: center;
+  color: #4e4207;
+  padding: 10px;
+  margin: 10px auto;
 }

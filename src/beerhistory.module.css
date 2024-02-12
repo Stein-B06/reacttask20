@@ -2,6 +2,7 @@
 #beerhistory {
   padding: 5px;
   background: linear-gradient(180deg, #efcd76, #f7c443);
+
   min-height: 100vh;
 }
 
@@ -12,19 +13,7 @@
   flex-direction: column;
   align-items: center;
 }
-.loadMore {
-  background-color: rgb(163, 103, 13);
-  margin-top: 10px;
-  cursor: pointer;
-  color: rgb(242, 245, 242);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
 
-.loadMore:hover {
-  background-color: #c59315;
-}
 .listItem {
   padding: 25px 10px;
   width: 65%;
@@ -35,5 +24,20 @@
   border-radius: 12px;
 }
 .loading {
-  padding-top: 30px;
+  text-align: center;
+  margin-top: 15px;
+}
+button {
+  background-color: aliceblue;
+  margin: 15px;
+  cursor: pointer;
+  font-weight: bold;
+  color: rgb(45, 47, 4);
+  padding: 8px;
+  border-radius: 8px;
+  border: none;
+}
+button:hover {
+  background-color: #393003;
+  color: rgb(244, 244, 237);
 }
